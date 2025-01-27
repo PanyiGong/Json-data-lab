@@ -40,7 +40,10 @@ function draw() {
     //   image(images[weatherJSON.properties.periods[i].icon],dx*(i+1),height/2)   
     // }    
   }
-  
+   line(20,50,20,350)
+    line(20,350,580,350)
+    text("temperature",10,50)
+    text("month",300,380)
   // console.log(images)
 }
 
